@@ -1,0 +1,161 @@
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.first-section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.first-section h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+    margin: auto;
+
+}
+.half-width img{
+    width: 70%;
+}
+.extra-padding{
+    padding-top: 70px;
+
+    
+}
+.orange-bg{
+    color: orange;
+}
+.border-left{
+    border-left: 5px solid;
+   border-image: linear-gradient(tomato, orange);
+   border-image-slice: 1;
+   padding-left: 5px;
+   height: 28%;
+   border-radius: 30px;
+   
+}
+.colored-button{
+    padding: 10px 25px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* second section starts here */
+.second-section{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.mission-container{
+    display: flex;
+    margin-left: 20px;
+}
+.mission-container p{
+    font-size: 18px;
+}
+.single-items-mission{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+    
+   
+}
+.single-items-mission img{
+    width: 120px;
+    height: 140px;
+}
+.single-items-mission p{
+    font-size: 18px;
+}
+.light-blue-bg{
+    background-color: aquamarine;
+}
+.light-pink-bg{
+    background-color: rgb(182, 68, 104);
+}
+.light-reddish-bg{
+    background-color: rgb(220, 220, 118);
+}
+/* third section start */
+.third-section-group{
+    display: flex;
+    margin-bottom: 80px;
+    
+}
+.extra-padding-2{
+    padding-left: 100px;
+}
+.extra-padding-3{
+    padding-right: 50px;
+}
+.third-section{
+    background-image: url(./mission-2022-main/images/shapes/shape-1.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 240px;
+}
+/* fourth section starts */
+.fourth-section-wrapper{
+    display: flex;
+    margin-bottom: 80px;
+    
+}
+.extra-width{
+    width: 60%;
+}
+.fourth-section{
+    background-image: url(./mission-2022-main/images/shapes/shape-1.png);
+    background-position: right bottom; /*Positioning*/
+    background-size: 150px;
+    background-repeat: no-repeat; 
+    
+}
+.padding-rightt{
+    padding-bottom: 40px;
+    padding-right: 110px;
+}
+/* about me section  */
+.about-myself{
+    height: 200px;
+    background-color: rgb(207, 111, 94);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 80px;
+   
+}
+.about-myself h2 {
+    color: rgb(25, 11, 82);
+    font-weight: bold;
+    font-size: 40px;
+}
+.about-myself p{
+    font-size: 17px;
+    color: rgb(5, 14, 42);
+}
+footer{
+    text-align: center;
+    background-color: rgb(5, 14, 42);
+    height: 130px;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 3px;
+}
+.tomato-bg{
+    color: tomato;
+    font-family: 'Lobster';
+}
+footer h1{
+    font-family: 'Lobster' , cursive;
+}
